@@ -18,8 +18,7 @@ The plugin will automatically detect all networks and log any issues encountered
 * Speech-to-Text  
 Put into OnnxNetworks/moonshine folder   
 [`https://huggingface.co/UsefulSensors/moonshine/tree/main/onnx/tiny`](https://huggingface.co/UsefulSensors/moonshine/tree/main/onnx/tiny)  
-(4 files: `cached_decode.onnx, uncached_decode.onnx, encode.onnx, preprocess.onnx`) License: [`MIT`](https://github.com/moonshine-ai/moonshine/blob/main/LICENSE)
-
+(4 files: `cached_decode.onnx, uncached_decode.onnx, encode.onnx, preprocess.onnx`) License: [`MIT`](https://github.com/moonshine-ai/moonshine/blob/main/LICENSE)  
 along with the `tokens.txt` file:  
 [`https://huggingface.co/csukuangfj/sherpa-onnx-moonshine-base-en-int8/blob/main/tokens.txt`](https://huggingface.co/csukuangfj/sherpa-onnx-moonshine-base-en-int8/blob/main/tokens.txt)
 
@@ -32,12 +31,12 @@ along with the `tokens.txt` file:
 * Face Detection
 [`https://huggingface.co/DIAMONIK7777/antelopev2/blob/main/scrfd_10g_bnkps.onnx`](https://huggingface.co/DIAMONIK7777/antelopev2/blob/main/scrfd_10g_bnkps.onnx).   License: [`MIT`](https://github.com/deepinsight/insightface/blob/master/README.md)
 
-* Face Recognition
-[`https://drive.google.com/file/d/1N0GL-8ehw_bz2eZQWz2b0A5XBdXdxZhg/view`](`https://drive.google.com/file/d/1N0GL-8ehw_bz2eZQWz2b0A5XBdXdxZhg/view).  License: [`MIT`](https://github.com/deepinsight/insightface/blob/master/README.md)  
-Google Drive Link. Or from `https://github.com/deepinsight/insightface/tree/master/model_zoo` Model `WebFace600K` GDrive Link from the big tabular list (the resulting file name will be `webface_r50.onnx`))  
+* Face Recognition  
+[`https://drive.google.com/file/d/1N0GL-8ehw_bz2eZQWz2b0A5XBdXdxZhg/view`](https://drive.google.com/file/d/1N0GL-8ehw_bz2eZQWz2b0A5XBdXdxZhg/view).  License: [`MIT`](https://github.com/deepinsight/insightface/blob/master/README.md)  
+Google Drive Link. Or from `https://github.com/deepinsight/insightface/tree/master/model_zoo` Model `WebFace600K` GDrive Link from the big tabular list (the resulting file name will be `webface_r50.onnx`)  
 
 
-* Gaze Estimation
+* Gaze Estimation  
 `[https://github.com/yakhyo/gaze-estimation/mobileone_s0_gaze.onnx`](https://github.com/yakhyo/gaze-estimation/mobileone_s0_gaze.onnx).  License: [`MIT`](https://github.com/yakhyo/gaze-estimation/blob/main/LICENSE)
 
 * Head Rotation  
