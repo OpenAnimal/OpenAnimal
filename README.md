@@ -19,7 +19,7 @@
 
 
 
-### Overview
+## Overview
 
 OpenAnimal is an extensible Unreal Engine–based framework for modeling and simulating animal- and human-like behavior. It integrates neural networks, behavior modeling, speech processing, and optional robotics interfaces directly within Unreal Engine, with an emphasis on transparency and autonomous operation.
 
@@ -51,14 +51,14 @@ The system is built to run fully offline with a design optimized for affordable,
 * Research simulations, Social behavior studies and modeling
 
 
-### Dependencies
+## Dependencies
 
 * **ONNX Neural Networks**  
   *See:* [Neural Networks README](NeuralNetworks/README.md) for all single-file ONNX networks
   For convenience a **Utility Widget** is provided to automatically download the networks to the correct location. 
 
 
-#### Optional
+### Optional
 
 * [VaRest](`https://github.com/AboveConstraints/VaRestX`) *(optional, but highly recommended)* 
 Reliable HTTP/URL communication layer for interacting with hardware and large/visual language models.  
