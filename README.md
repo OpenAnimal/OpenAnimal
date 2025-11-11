@@ -54,7 +54,7 @@ Unreal Engine with a strong emphasis on standalone, autonomous operation.
   For convenience a **Utility Widget** is provided to automatically download the networks to the correct location. 
 
 
-### Optional
+#### Optional
 
 * [VaRest](`https://github.com/AboveConstraints/VaRestX`) *(optional, but highly recommended)* 
 Reliable HTTP/URL communication layer for interacting with hardware and large/visual language models.  
