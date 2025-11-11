@@ -13,7 +13,8 @@
   <a href="...">📱 Android</a>
 </p>
 
-<hr style="border:0; border-top:0.3px solid #ccc; margin:0.5em 0;">
+<hr style="border:0; border-top:1px solid #eee; margin:0.5em 0;">
+
 
 ## 📘 Official Documentation
 
