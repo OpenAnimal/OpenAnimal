@@ -1,13 +1,9 @@
 
-![OA raptor](https://raw.githubusercontent.com/OpenAnimal/OpenAnimal/main/Assets/Media/OA_raptor6_flat.png)
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/OpenAnimal/OpenAnimal/main/Assets/Media/OA_raptor6_flat.png" alt="OA raptor flat" width="600" />
 </p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/OpenAnimal/OpenAnimal/main/Assets/Media/OA_raptor6_flat.png" alt="OA raptor flat" style="width:60%" />
-</p>
-## OpenAnimal – OpenBrain
+
+<h2 align="center">OpenAnimal – OpenBrain</h2>
 
 ### -- **Official Documentation** --
 
