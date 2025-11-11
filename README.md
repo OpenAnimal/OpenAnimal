@@ -68,7 +68,6 @@ Reliable HTTP/URL communication layer for interacting with hardware and large/vi
 For local execution of large and visual language models, including support for cloud-based model computation via the new Ollama cloud-model options.
 
 
-##  
 
 ## Platforms
 
@@ -84,8 +83,8 @@ This is an early-stage release and was published under high time pressure. Some 
 
 ## Contact & Support
 
-* Email: OpenAnimal@outlook not .com but .de
-* For questions that may benefit others, please open an [Issue](https://github.com/OpenAnimal/OpenAnimal/issues) here on GitHub
+Email: OpenAnimal@outlook not .com but .de
+For questions that may benefit others, please open an [Issue](https://github.com/OpenAnimal/OpenAnimal/issues) here on GitHub
 
 
 
