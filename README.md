@@ -16,15 +16,15 @@ Unreal Engine with a strong emphasis on standalone, autonomous operation.
 * **Native Unreal Engine ONNX neural-network inference in Blueprints**
 * **Asynchronous processing pipelines**
 * **Speech-to-Text and speaker recognition**
-* **Animal pose, face, and gaze detection**
+* **Animal pose, face, and gaze detection**  
   Estimate posture, orientation, and visual focus. 
-* **Behavior and emotional-state modeling (preliminary)**
+* **Behavior and emotional-state modeling (preliminary)**  
   Early-stage behavior generation and emotion approximation. 
-* **Platform-independent ONNX networks**
+* **Platform-independent ONNX networks**  
   Single-file ONNX models that are openly available and operate consistently across platforms.
-* **Bottom-up autonomous intelligence modeling**
+* **Bottom-up autonomous intelligence modeling**  
   Designed to build emergent behavior from atomic perceptual and processing components. 
-* **Android and Arduino based**
+* **Android and Arduino based**  
   Enabling integration with broad variety of hardware setups
 
 
@@ -37,18 +37,18 @@ Unreal Engine with a strong emphasis on standalone, autonomous operation.
 
 ### Dependencies Required
 
-* **ONNX Neural Networks**
-  *See:* [`Neural Networks README`](NeuralNetworks/README.md) for all single-file ONNX networks.
+* **ONNX Neural Networks**  
+  *See:* [Neural Networks README](NeuralNetworks/README.md) for all single-file ONNX networks
   For convenience a **Utility Widget** is provided to automatically download the networks to the correct location. 
 
 
 ### Optional
 
-* [`VaRest`](`https://github.com/AboveConstraints/VaRestX`) (optional, but highly recommended)
-Reliable HTTP/URL communication layer for interacting with hardware and large/visual language models.
+* [`VaRest`](`https://github.com/AboveConstraints/VaRestX`) *(optional, but highly recommended)* 
+Reliable HTTP/URL communication layer for interacting with hardware and large/visual language models.  
 (Unreal Engine’s built-in HTML communication methods are yet too unstable; VaRest is the battle-tested solution currently used.)
 
-* [`Ollama`](`https://ollama.com/`)
+* [`Ollama`](`https://ollama.com/`)  
 For local execution of large and visual language models, including support for cloud-based model computation via the new Ollama cloud-model options.
 
 
