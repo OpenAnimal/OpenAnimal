@@ -3,11 +3,17 @@
   <img src="https://raw.githubusercontent.com/OpenAnimal/OpenAnimal/main/Assets/Media/OA_raptor6_flat.png" alt="OA raptor flat" width="600" />
 </p>
 
-<h2 align="center">OpenAnimal – OpenBrain</h2>
-
-### -- **Official Documentation** --
+<h1 align="center">OpenAnimal – OpenBrain 🦖</h1>
 
 
+<p align="center">
+  <a href="...">🧠 Neural Networks</a> |
+  <a href="...">📚 LLM/VLM</a> |
+  <a href="...">🤖 Robot Hardware</a> |
+  <a href="...">📱 Android</a>
+</p>
+
+## 📘 Official Documentation
 
 ### Overview
 
