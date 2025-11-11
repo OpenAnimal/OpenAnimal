@@ -1,17 +1,23 @@
 
-## Brain on a Android Smartphone
+## Brain on an Android Smartphone
+
+Android phones are intended as a primary deployment target for running the standalone “brain” component. The goal is to run perception, behavior generation, and communication autonomously on low-cost, widely available mobile hardware. 
+
+### Current Android Compilation Status
+
+* **OpenAnimal:** Compiles for Android
+* **VaRest:** Compiles for Android and provides reliable HTTP communication
+* **SocketIO:** Currently not used. Wi-Fi-based communication is preferred. 
+
+### Notes on Mobile Functionality
+
+OpenAnimal and VaRest both compile for Android successfully; however, this does not guarantee complete feature availability at runtime. In some cases, packaging may succeed but specific functionality (e.g., network-level or file-level capabilities) may not behave identically to desktop. Further testing and validation on real devices is required and results will be provided soon. 
+
+Features and modules that rely solely on Unreal Engine systems should generally be compatible with smartphones without major limitations. 
+
+### Serial Communication Status
+
+The SerialCom plugin does not support Android at this stage due to its reliance on Windows functions that are silently excluded when packaging. The intention is to make it potentially compatible in the future, but currently it is not part of the Android workflow. 
 
 
-Android Phones are ought to be used to deploy the standalone Brain. 
-
-Compiles for Android:
-OpenAnimal  (x)
-VaRest      (x) (VaRest might be replaced by upcoming integrated UE tools)
-
-SocketIO    ()  (For USB-Serial Connection. We might port it, but WiFi is the first to go)
-
-
-
-
-So far the OpenAnimal Plugin does compile for Android, as well as VaRest for http, but this doesn't mean that all functionality is provided and tested, as packaging might pass without errors, but essential functionality is unavailable. This will require more testing to verify, eventhough the UE-based features should be smartphone compatible without major drawbacks. 
-The SerialCom plugin however is not compatible out-of-the-box, as it uses Windows functions that are silently excluded when packaging. But we plan to make the plugin compatible in the near future. 
+---
