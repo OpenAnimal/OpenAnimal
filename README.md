@@ -9,7 +9,7 @@ OpenAnimal – OpenBrain is an extensible Unreal Engine–based framework for mo
 It integrates neural networks, behavior modeling, speech and audio processing, and optional robotics interfaces directly within 
 Unreal Engine with a strong emphasis on standalone, autonomous operation. 
 
----
+
 
 ### Key Features
 
@@ -34,7 +34,7 @@ Unreal Engine with a strong emphasis on standalone, autonomous operation.
 * **Android and Arduino based**
   Enabling integration with broad variety of hardware setups
 
----
+
 
 ### Use Cases
 * Pet
@@ -42,7 +42,6 @@ Unreal Engine with a strong emphasis on standalone, autonomous operation.
 * Robotics and hardware prototyping
 * Research simulations, Social behavior studies and modeling
 
----
 
 ### Dependencies Required
 
@@ -61,7 +60,6 @@ Reliable HTTP/URL communication layer for interacting with hardware and large/vi
 For local execution of large and visual language models, including support for cloud-based model computation via the new Ollama cloud-model options.
 
 
----
 
 
 ## Platforms
@@ -69,7 +67,6 @@ For local execution of large and visual language models, including support for c
 * Windows 64-bit
 * Android 
 
----
 
 
 ## Release State and Disclaimer
@@ -77,13 +74,10 @@ For local execution of large and visual language models, including support for c
 This is an early-stage release and was published under high time pressure. Some features are incomplete, and bugs may exist. Development will continue, and the project is expected to expand over time. 
 
 
----
-
 ## Contact & Support
 
 * Email: OpenAnimal@outlook not .com but .de
-* For questions that may benefit others, please open an Issue on GitHub.
-  → [https://github.com/OpenAnimal/OpenAnimal/issues](https://github.com/OpenAnimal/OpenAnimal/issues) 
+* For questions that may benefit others, please open an [Issue](https://github.com/OpenAnimal/OpenAnimal/issues) here on GitHub
 
 
 
