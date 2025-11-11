@@ -22,13 +22,13 @@ Put into OnnxNetworks/moonshine folder
 along with the `tokens.txt` file:  
 [`https://huggingface.co/csukuangfj/sherpa-onnx-moonshine-base-en-int8/blob/main/tokens.txt`](https://huggingface.co/csukuangfj/sherpa-onnx-moonshine-base-en-int8/blob/main/tokens.txt)
 
-* Speaker Recognition
+* Speaker Recognition  
 [`https://github.com/k2-fsa/sherpa-onnx/releases/download/speaker-recongition-models/3dspeaker_speech_campplus_sv_en_voxceleb_16k.onnx`](https://github.com/k2-fsa/sherpa-onnx/releases/download/speaker-recongition-models/3dspeaker_speech_campplus_sv_en_voxceleb_16k.onnx).  License: [`Apache-2.0`](https://github.com/k2-fsa/sherpa-onnx/blob/master/LICENSE)
 
 * Speaker Segmentation  
 [`https://huggingface.co/onnx-community/pyannote-segmentation-3.0/tree/main/onnx/pyannote-segmentation-3.0`](https://huggingface.co/onnx-community/pyannote-segmentation-3.0/tree/main/onnx/pyannote-segmentation-3.0).  License: [`MIT`](https://huggingface.co/pyannote/segmentation-3.0/blob/main/LICENSE)
 
-* Face Detection
+* Face Detection  
 [`https://huggingface.co/DIAMONIK7777/antelopev2/blob/main/scrfd_10g_bnkps.onnx`](https://huggingface.co/DIAMONIK7777/antelopev2/blob/main/scrfd_10g_bnkps.onnx).   License: [`MIT`](https://github.com/deepinsight/insightface/blob/master/README.md)
 
 * Face Recognition  
