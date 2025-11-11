@@ -8,7 +8,7 @@ If not using the `Onnx-Downloader` you can include the networks manually by down
 
 The plugin will automatically detect all networks and log any issues encountered during loading. 
 
----- 
+
 
 ## Network Links
 
