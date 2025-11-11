@@ -4,7 +4,7 @@ Below is a list of externally sourced ONNX models used by the plugin.
 
 If not using the Onnx-Downloader you can include the networks manually by downloading the files and place them inside:
 
-Plugins/OpenAnimal/Content/OnnxNetworks folder (and the moonshine speech-to-text models to OnnxNetworks/moonshine folder).
+´Plugins/OpenAnimal/Content/OnnxNetworks´ folder (and the moonshine speech-to-text models to ´OnnxNetworks/moonshine´ folder).
 
 The plugin will automatically detect all networks and log any issues encountered during loading. 
 
