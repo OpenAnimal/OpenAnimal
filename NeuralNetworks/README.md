@@ -18,7 +18,7 @@ The plugin will automatically detect all networks and log any issues encountered
 * Speech-to-Text  
 Put into OnnxNetworks/moonshine folder   
 [`https://huggingface.co/UsefulSensors/moonshine/tree/main/onnx/tiny`](https://huggingface.co/UsefulSensors/moonshine/tree/main/onnx/tiny)  
-(4 files: `cached_decode.onnx, uncached_decode.onnx, encode.onnx, preprocess.onnx`) License: [`MIT`](https://github.com/moonshine-ai/moonshine/blob/main/LICENSE)  
+(4 files: `cached_decode.onnx, uncached_decode.onnx, encode.onnx, preprocess.onnx`) `License: [MIT`](https://github.com/moonshine-ai/moonshine/blob/main/LICENSE)  
 along with the `tokens.txt` file:  
 [`https://huggingface.co/csukuangfj/sherpa-onnx-moonshine-base-en-int8/blob/main/tokens.txt`](https://huggingface.co/csukuangfj/sherpa-onnx-moonshine-base-en-int8/blob/main/tokens.txt)
 
