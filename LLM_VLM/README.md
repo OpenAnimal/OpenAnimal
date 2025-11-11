@@ -7,8 +7,7 @@ The plugin supports multiple levels of cognition, ranging from low-level socio-d
 
 To maintain the plugin’s philosophy of supporting standalone, offline, and self-contained operation, Ollama is used as the local provider for LLM and VLM inference. Ollama allows hosting both lightweight and complex models locally with minimal setup effort. 
 
-Download Ollama:  
-[`ollama.com`](https://ollama.com/)
+Download [Ollama](https://ollama.com/)
 
 ### Blueprint-Based Prompt Generation
 
