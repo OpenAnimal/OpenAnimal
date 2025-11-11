@@ -1,7 +1,7 @@
 
 ## OpenAnimal – OpenBrain
 
-![OA raptor](https://raw.githubusercontent.com/OpenAnimal/OpenAnimal/main/Assets/Media/OA_raptor6_upscaled1920xnon1080.jpg)
+![OA raptor](https://raw.githubusercontent.com/OpenAnimal/OpenAnimal/main/Assets/Media/OA_raptor6_flat.jpg)
 
 
 ### - **Official Documentation** -
