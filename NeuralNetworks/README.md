@@ -20,7 +20,7 @@ Put into OnnxNetworks/moonshine folder
 [`https://huggingface.co/UsefulSensors/moonshine/tree/main/onnx/tiny`](https://huggingface.co/UsefulSensors/moonshine/tree/main/onnx/tiny)  
 (4 files: `cached_decode.onnx, uncached_decode.onnx, encode.onnx, preprocess.onnx`) `License:` [`MIT`](https://github.com/moonshine-ai/moonshine/blob/main/LICENSE)  
 along with the `tokens.txt` file:  
-[`https://huggingface.co/csukuangfj/sherpa-onnx-moonshine-base-en-int8/blob/main/tokens.txt`](https://huggingface.co/csukuangfj/sherpa-onnx-moonshine-base-en-int8/blob/main/tokens.txt)
+[`https://huggingface.co/csukuangfj/sherpa-onnx-moonshine-base-en-int8/blob/main/tokens.txt`](https://huggingface.co/csukuangfj/sherpa-onnx-moonshine-base-en-int8/blob/main/tokens.txt)  `License:` [`MIT`](https://huggingface.co/csukuangfj/sherpa-onnx-moonshine-base-en-int8/blob/main/LICENSE)
 
 * Speaker Recognition  
 [`https://github.com/k2-fsa/sherpa-onnx/releases/download/speaker-recongition-models/3dspeaker_speech_campplus_sv_en_voxceleb_16k.onnx`](https://github.com/k2-fsa/sherpa-onnx/releases/download/speaker-recongition-models/3dspeaker_speech_campplus_sv_en_voxceleb_16k.onnx).  `License:` [`Apache-2.0`](https://github.com/k2-fsa/sherpa-onnx/blob/master/LICENSE)
