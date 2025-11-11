@@ -17,11 +17,11 @@
 
 ### Overview
 
-OpenAnimal – OpenBrain is an extensible Unreal Engine–based framework for modeling and simulating animal and human-like behavior.
-It integrates neural networks, behavior modeling, speech and audio processing, and optional robotics interfaces directly within 
-Unreal Engine with a strong emphasis on standalone, autonomous operation. 
+OpenAnimal is an extensible Unreal Engine–based framework for modeling and simulating animal- and human-like behavior. It integrates neural networks, behavior modeling, speech processing, and optional robotics interfaces directly within Unreal Engine, with an emphasis on transparency and autonomous operation.
 
+OpenBrain is a self-contained, plug-and-play Animal Brain system designed to bring autonomous behavior to any Actor in Unreal Engine and to physical platforms. This module focuses on extensibility, aiming to simulate natural animal cognition and social interaction (rather than high-level intelligence).
 
+The system is built to run fully offline with a design optimized for affordable, widely available platforms, including mobile devices. Future updates will expand behavioral depth and capabilities.
 
 ### Key Features
 
@@ -41,7 +41,7 @@ Unreal Engine with a strong emphasis on standalone, autonomous operation.
 
 
 ### Use Cases
-* Pet
+* Construction of autonomous pet-like agents
 * Educational scenarios and demonstrations
 * Robotics and hardware prototyping
 * Research simulations, Social behavior studies and modeling
