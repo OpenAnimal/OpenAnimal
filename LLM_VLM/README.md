@@ -1,28 +1,32 @@
+
 ## Large Language Models and Visual Language Models
 
+The plugin supports multiple levels of cognition, ranging from low-level socio-dynamic and “alive” behavior to higher-level reasoning and analysis. For advanced cognitive layers, integration with Large Language Models (LLMs) and Visual Language Models (VLMs) is provided. 
 
-The plugin aims to provide different versions of intelligence. While the basic plugin focusses on replicating basic socio-dynamic and 'alive' behavior, a higher kind of cognition and advanced intelligence can be used throughout the plugin. 
+### Local LLM/VLM Execution via Ollama
 
-Due to the philosophy of the plugin to allow standalone and offline, while also striving for simplicity, we focussed on the use of Ollama as a local provider for language and visual models.
+To maintain the plugin’s philosophy of supporting standalone, offline, and self-contained operation, Ollama is used as the local provider for LLM and VLM inference. Ollama allows hosting both lightweight and complex models locally with minimal setup effort. 
 
-Ollama requires nearly no effort to get and host minimal up to very complex models locally.
+Download Ollama:  
+[https://ollama.com/](https://ollama.com/)
 
-Get Ollama here: https://ollama.com/
+### Blueprint-Based Prompt Generation
 
-In addition to text based prompting, we created a Blueprint based prompt creation, which allows to specify structured, f.i. Json based returns. We created a automatic capturing of Types (including Arrays) as returns to automatically set Blueprint variables.
+The plugin includes Blueprint utilities for constructing prompts and specifying structured return types (e.g., JSON). Returned data can automatically populate Blueprint variables, including arrays and typed structures. 
 
-Images can be sent via a prompt, by using utility functions that encode images or render targets from Blueprints to base64 as the common format
+Images can be encoded to Base64 directly from Blueprint via dedicated utility functions, enabling image inputs for VLM models. 
 
-Within the OpenAnimal Plugin the LLM/VLM pipeline is in a Actor Component that can be attached to the brain and that includes detailed instructions and Prompt examples. 
+The LLM/VLM pipeline is implemented as an Actor Component that can be attached to the “brain,” with extensive inline instructions and example prompts included. 
 
+### Communication Layer
 
-The communication is done via the [VaRest](https://github.com/AboveConstraints/VaRestX) Plugin. This is a third party dependency to simply create Http REST connections (based on URLs and requiring only IP, Port and added content). While first developments were made with in-house UE Json and Http solutions, these were yet so instable and nodes were randomly dropped after restarts, we switched to VaRest as a battletested and reliable solution for now.
+Communication with Ollama is performed through the VaRest plugin. VaRest provides a robust HTTP REST interface that proved more stable than Unreal’s internal JSON/HTTP nodes, which were unreliable during testing, but it is planned to convert to the in-house methods at some point. 
 
-Drawbacks:
-- Each Model can have slightly different variations in prompts or capabilities. Most of our tests were done on LLama and LLava models, but results for other models might differ.
-- Even the smallest Visual-Language Models can take a considerable amount of time to process. This would very likely be more pronounced if deployed on mobile phones. (Running Ollama on ARM devices might also not be that straight-forward currently.) Therefor using a VLM for real-time purposes might not be feasable (if not using cloud models, see below), why it is now reserved for higher and deeper analysis cognition.
+### Known Limitations
 
-- OpenAnimal is meant to work offline, but it allows to use the same Http REST interface to access AI provider APIs the same way as it interfaces with Ollama locally. Though the prompts have to be set up differently (providing providers IPs and ones Tokens one received from the provider). This might require some manual work and the advanced Blueprint-based prompt generation might not simply work for the providers API specifications.
-However Ollama just released 'cloud models', which might simplify the use of cloud models via Ollama style prompts.
- 
+* Model behavior varies depending on the specific LLM/VLM. Most testing was performed using LLaMA and LLaVA models; results with other models may differ. 
+* Even small VLMs can exhibit significant processing latency, this might especially increase on mobile hardware. Real-time usage of VLMs is therefore impractical outside of cloud-assisted scenarios. 
+* While designed for offline usage, the system can connect to external AI providers using the same REST interface. However, prompts must be adjusted to match provider-specific API requirements. (Advanced Blueprint prompt generation for ollama may not align directly with external API specifications and the Blueprint prompt generation can require careful, detail-oriented configuration.) 
+* Ollama’s new cloud-model functionality may simplify cloud-based usage in the future. 
+
 
