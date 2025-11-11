@@ -1,7 +1,7 @@
 
 ## OpenAnimal – OpenBrain
 
-**Official Documentation** 
+### **Official Documentation** 
 
 ### Overview
 
