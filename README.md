@@ -14,26 +14,18 @@ Unreal Engine with a strong emphasis on standalone, autonomous operation.
 ### Key Features
 
 * **Native Unreal Engine ONNX neural-network inference in Blueprints**
-
 * **Asynchronous processing pipelines**
-
 * **Speech-to-Text and speaker recognition**
-
 * **Animal pose, face, and gaze detection**
   Estimate posture, orientation, and visual focus. 
-
 * **Behavior and emotional-state modeling (preliminary)**
   Early-stage behavior generation and emotion approximation. 
-
 * **Platform-independent ONNX networks**
-  Single-file ONNX models that are openly available and operate consistently across platforms.. 
-
+  Single-file ONNX models that are openly available and operate consistently across platforms.
 * **Bottom-up autonomous intelligence modeling**
   Designed to build emergent behavior from atomic perceptual and processing components. 
-
 * **Android and Arduino based**
   Enabling integration with broad variety of hardware setups
-
 
 
 ### Use Cases
