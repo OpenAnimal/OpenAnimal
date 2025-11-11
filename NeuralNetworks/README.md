@@ -10,7 +10,7 @@ The plugin will automatically detect all networks and log any issues encountered
 
 ---- 
 
-### Network Links
+## Network Links
 
 * Yolov12 Object Detection  
 [`https://github.com/mohamedsamirx/YOLOv12-ONNX-CPP/blob/main/models/yolov12n.onnx`](https://github.com/mohamedsamirx/YOLOv12-ONNX-CPP/blob/main/models/yolov12n.onnx)  `License:` [`AGPL-3.0`](https://github.com/mohamedsamirx/YOLOv12-ONNX-CPP/blob/main/LICENSE)
@@ -50,7 +50,7 @@ Google Drive Link. Or from `https://github.com/deepinsight/insightface/tree/mast
 
 
 
-#### Folder Structure
+## Folder Structure
 ![FolderStructure](NeuralNetworks_Folder.png)
 
 
