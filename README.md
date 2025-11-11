@@ -3,10 +3,10 @@
 
 
 ## OpenAnimal – OpenBrain
----
-### - **Official Documentation** -
 
----
+### -- **Official Documentation** --
+
+
 
 ### Overview
 
@@ -40,7 +40,7 @@ Unreal Engine with a strong emphasis on standalone, autonomous operation.
 * Research simulations, Social behavior studies and modeling
 
 
-### Dependencies Required
+### Dependencies
 
 * **ONNX Neural Networks**  
   *See:* [Neural Networks README](NeuralNetworks/README.md) for all single-file ONNX networks
