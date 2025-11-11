@@ -1,6 +1,6 @@
 # Neural Network Models
 
-Below is a list of externally sourced `ONNX` models, which are platform independent, single file neural networks, used by the plugin. 
+Below is a list of publicly available `ONNX` models, which are platform independent, single file neural networks, used by the plugin. 
 
 If not using the `Onnx-Downloader` you can include the networks manually by downloading the files and place them inside:
 
