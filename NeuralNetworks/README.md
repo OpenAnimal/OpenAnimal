@@ -1,7 +1,12 @@
+## Neural Network Models
 
+Below is a list of externally sourced ONNX models used by the plugin. 
 
+If not using the Onnx-Downloader you can include the networks manually by downloading the files and place them inside:
 
-#### Neural Network Links:
+Plugins/OpenAnimal/Content/OnnxNetworks folder (and the moonshine speech-to-text models to OnnxNetworks/moonshine folder).
+
+The plugin will automatically detect all networks and log any issues encountered during loading. 
 
 
 Yolov12 Object Detection: 
@@ -42,20 +47,6 @@ https://huggingface.co/onnx-community/depth-anything-v2-small/blob/main/onnx/mod
 
 
 
-These are best to de placed into the 'Plugins/OpenAnimal/Content/OnnxNetworks' folder. 
+![FolderStructure](NeuralNetworks_Folder.png)
 
 
-It will look like this 
-
-![alt text]({NeuralNetworks_Folder}.png)
-
-The networks will automatically be detected and any potential problems one could encounter should be logged.
-
-
-# Pyannote Segmentation 3.0 Status
-
-[![File Status](https://github.com/OWNER/REPO/actions/workflows/check_model.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/check_model.yml)
-
-## Links
-- [Original Model](https://huggingface.co/pyannote/segmentation-3.0)
-- [ONNX Community Model](https://huggingface.co/onnx-community/pyannote-segmentation-3.0/tree/main/onnx/pyannote-segmentation-3.0)
