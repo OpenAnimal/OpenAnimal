@@ -1,6 +1,9 @@
 
 ## OpenAnimal – OpenBrain
 
+![OA raptor](https://raw.githubusercontent.com/OpenAnimal/OpenAnimal/main/Assets/Media/OA_raptor6_upscaled1920xnon1080.jpg)
+
+
 ### - **Official Documentation** -
 
 ### Overview
@@ -44,11 +47,11 @@ Unreal Engine with a strong emphasis on standalone, autonomous operation.
 
 ### Optional
 
-* [`VaRest`](`https://github.com/AboveConstraints/VaRestX`) *(optional, but highly recommended)* 
+* [VaRest](`https://github.com/AboveConstraints/VaRestX`) *(optional, but highly recommended)* 
 Reliable HTTP/URL communication layer for interacting with hardware and large/visual language models.  
 (Unreal Engine’s built-in HTML communication methods are yet too unstable; VaRest is the battle-tested solution currently used.)
 
-* [`Ollama`](`https://ollama.com/`)  
+* [Ollama](`https://ollama.com/`)  
 For local execution of large and visual language models, including support for cloud-based model computation via the new Ollama cloud-model options.
 
 
