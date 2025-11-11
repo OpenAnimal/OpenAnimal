@@ -4,7 +4,7 @@ Below is a list of externally sourced ONNX models used by the plugin.
 
 If not using the Onnx-Downloader you can include the networks manually by downloading the files and place them inside:
 
-´Plugins/OpenAnimal/Content/OnnxNetworks´ folder (and the moonshine speech-to-text models to ´OnnxNetworks/moonshine´ folder).
+`Plugins/OpenAnimal/Content/OnnxNetworks` folder (and the moonshine speech-to-text models to `OnnxNetworks/moonshine` folder).
 
 The plugin will automatically detect all networks and log any issues encountered during loading. 
 
@@ -13,7 +13,7 @@ The plugin will automatically detect all networks and log any issues encountered
 ### Network Links
 
 #### Yolov12 Object Detection:
-ONNX Source File: https://github.com/mohamedsamirx/YOLOv12-ONNX-CPP/blob/main/models/yolov12n.onnx 
+ONNX Source File: `https://github.com/mohamedsamirx/YOLOv12-ONNX-CPP/blob/main/models/yolov12n.onnx`
 [License AGPL-3.0](https://github.com/mohamedsamirx/YOLOv12-ONNX-CPP/blob/main/LICENSE)
 
 #### Speech-to-Text:
