@@ -1,56 +1,94 @@
-## Open Animal - Open Brain  Official Documentation
+
+## OpenAnimal – OpenBrain
+
+**Official Documentation** 
+
+### Overview
+
+OpenAnimal – OpenBrain is an extensible Unreal Engine–based framework for modeling and simulating animal and human-like behavior.
+It integrates neural networks, behavior modeling, speech and audio processing, and optional robotics interfaces directly within 
+Unreal Engine with a strong emphasis on standalone, autonomous operation. 
+
+---
+
+### Key Features
+
+* **Native Unreal Engine ONNX neural-network inference in Blueprints**
+
+* **Asynchronous processing pipelines**
+
+* **Speech-to-Text and speaker recognition**
+
+* **Animal pose, face, and gaze detection**
+  Estimate posture, orientation, and visual focus. 
+
+* **Behavior and emotional-state modeling (preliminary)**
+  Early-stage behavior generation and emotion approximation. 
+
+* **Platform-independent ONNX networks**
+  Single-file ONNX models that are openly available and operate consistently across platforms.. 
+
+* **Bottom-up autonomous intelligence modeling**
+  Designed to build emergent behavior from atomic perceptual and processing components. 
+
+* **Android and Arduino based**
+  Enabling integration with broad variety of hardware setups
+
+---
+
+### Use Cases
+* Pet
+* Educational scenarios and demonstrations
+* Robotics and hardware prototyping
+* Research simulations, Social behavior studies and modeling
+
+---
+
+### Dependencies Required
+
+* **ONNX Neural Networks**
+  *See:* [`Neural Networks README`](NeuralNetworks/README.md) for all single-file ONNX networks.
+  For convenience a **Utility Widget** is provided to automatically download the networks to the correct location. 
+
+
+### Optional
+
+* [`VaRest`](`https://github.com/AboveConstraints/VaRestX`) (optional, but highly recommended)
+Reliable HTTP/URL communication layer for interacting with hardware and large/visual language models.
+(Unreal Engine’s built-in HTML communication methods are yet too unstable; VaRest is the battle-tested solution currently used.)
+
+* [`Ollama`](`https://ollama.com/`)
+For local execution of large and visual language models, including support for cloud-based model computation via the new Ollama cloud-model options.
+
+
+---
+
+
+## Platforms
+
+* Windows 64-bit
+* Android 
+
+---
+
+
+## Release State and Disclaimer
+
+This is an early-stage release and was published under high time pressure. Some features are incomplete, and bugs may exist. Development will continue, and the project is expected to expand over time. 
+
+
+---
+
+## Contact & Support
+
+* Email: OpenAnimal@outlook not .com but .de
+* For questions that may benefit others, please open an Issue on GitHub.
+  → [https://github.com/OpenAnimal/OpenAnimal/issues](https://github.com/OpenAnimal/OpenAnimal/issues) 
 
 
 
 
-Speech-to-Text and Speaker Recognition
-Parent and Family Classification
-Animal Pose and Face Gaze
-
-
-Dependencies:
-- See [Neural Network Readme](https://github.com/OpenAnimal/OpenAnimal/OpenAnimal\NeuralNetworks\README.md) for all Singlefile ONNX Neural Networks - openly available and platform independent 
-For convenience there is a Utility Widget that downloads all networks into the correct location
-
-Optionally:
-[VaRest](https://github.com/AboveConstraints/VaRestX)
-For HTTP/URL communication with Large and Visual Language Models 
-[Ollama](https://ollama.com/) For using Large and Visual Language Models Locally with One-click (potentially using computation centers with the new Ollama cloud-models)
-
-
-- (Optionally) [SerialCOM](https://github.com/videofeedback/Unreal_Engine_SerialCOM_Plugin) For Communicating with Arduino from UE
-
-
-[SerialCOM](https://github.com/videofeedback/Unreal_Engine_SerialCOM_Plugin) (For communicating with Arduino from UE with Blueprint)
-
-Note that there might be issues with Plugins eventhough these are marked as optional. Don't forget to try 'rebuild vs files' (btw. vs code is a nicer experience) or set Enabled to false in uproject/uplugin. The official SerialCom plugin has set 5.4 instead of 5.5 in the uplugin file - set it to 5.5 to prevent 'built with different engine version' warning.
-
-
-D:\Unreal Engine\OA Repo\OpenAnimal\NeuralNetworks\README.md
-Features:
-- Native UE Neural Network Engine in Blueprints
-- Inherently Async Network Processing Pipelines
-
-- Bottom-up autonomous intelligence / non-intelligence
-- Emotions (preliminary) and Behavior
-- Speech and Keyword Analysis (preliminary)
-- Platform agnostic / independent
-- Robot Hardware 
-
-
-- Modeling animal behavior from the ground up
-- Educational purposes and ability to simulate animal and human behavior, especially social behavior and 
-
-
-// Disclaimer
-This is the very first release and had to be released under huge pressure - that means that there will be bugs and not all features are 100% complete, but it is planned to advance and grow over time.
-
-
-Contact:
-- OpenAnimal@outlook not .com but .de 
-- However for any kind of request that could also benefit others, consider opening an [Issue](https://github.com/OpenAnimal/OpenAnimal/Issues) here on github.
 
 
 
-Platform:
-Win64, Android
+
