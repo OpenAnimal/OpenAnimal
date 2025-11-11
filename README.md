@@ -1,8 +1,8 @@
 
-## OpenAnimal – OpenBrain
-
 ![OA raptor](https://raw.githubusercontent.com/OpenAnimal/OpenAnimal/main/Assets/Media/OA_raptor6_flat.png)
 
+
+## OpenAnimal – OpenBrain
 
 ### - **Official Documentation** -
 
