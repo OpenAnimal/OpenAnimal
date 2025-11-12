@@ -53,18 +53,18 @@ The system is built to run fully offline with a design optimized for affordable,
 
 ## Dependencies
 
-**ONNX Neural Networks**  
+* **ONNX Neural Networks**  
   *See:* [Neural Networks README](NeuralNetworks/README.md) for all single-file ONNX networks
   For convenience a **Utility Widget** is provided to automatically download the networks to the correct location. 
 
 
 ### Optional
 
-[VaRest](https://github.com/AboveConstraints/VaRestX) *(optional, but highly recommended)* 
+* [VaRest](https://github.com/AboveConstraints/VaRestX) *(optional, but highly recommended)*  
 Reliable HTTP/URL communication layer for interacting with hardware and large/visual language models.  
 (Unreal Engine’s built-in HTML communication methods are yet too unstable; VaRest is the battle-tested solution currently used.)
 
-[Ollama](https://ollama.com/)  
+* [Ollama](https://ollama.com/)  
 For local execution of large and visual language models, including support for cloud-based model computation via the new Ollama cloud-model options.
 
 
