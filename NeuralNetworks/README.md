@@ -30,7 +30,7 @@ along with the `tokens.txt` file:
 
 * Face Recognition  
 [`https://drive.google.com/file/d/1N0GL-8ehw_bz2eZQWz2b0A5XBdXdxZhg/view`](https://drive.google.com/file/d/1N0GL-8ehw_bz2eZQWz2b0A5XBdXdxZhg/view).  `License:` [`MIT`](https://github.com/deepinsight/insightface/blob/master/README.md)  
-Google Drive Link. Or from `https://github.com/deepinsight/insightface/tree/master/model_zoo` Model `WebFace600K` GDrive Link from the big tabular list (the resulting file name will be `webface_r50.onnx`)  
+Google Drive Link. Or from [`https://github.com/deepinsight/insightface/tree/master/model_zoo`](https://github.com/deepinsight/insightface/tree/master/model_zoo), Model `WebFace600K`, GDrive Link from the big tabular list (the resulting file name will be `webface_r50.onnx`)  
 
 
 * Gaze Estimation  
