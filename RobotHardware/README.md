@@ -31,18 +31,12 @@ The SerialCOM Plugin for USB connection still works for UE5.5 on Windows and a b
 
 
 
-#### Typical Complete Workflow
+### Typical Complete Workflow
 
-Place your Android phone on the robot.
-
-Connect the phone to the ESP32 over Wi-Fi.
-
-Launch OpenAnimal (OpenBrain) on the phone.
-
+Place your Android phone on the robot.  
+Connect the phone to the ESP32 over Wi-Fi.  
+Launch OpenAnimal (OpenBrain) on the phone.  
 The phone uses its neural networks and microphone to perceive the environment.  
-
-The phone sends motor/servo commands to the robot.
-
-The robot sends sensor data back.
-
+The phone sends motor/servo commands to the robot.  
+The robot sends sensor data back.  
 Higher-cognition modules run in the background when you request advanced analysis.
