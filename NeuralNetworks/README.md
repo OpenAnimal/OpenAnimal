@@ -1,11 +1,8 @@
 # Neural Network Models
 
-Below is a list of publicly available `ONNX` models, which are platform independent, single file neural networks, used by the plugin. 
-
-*If not using the **Onnx-Downloader*** you can include the networks manually by downloading the files and place them inside:
-
-`Plugins/OpenAnimal/Content/OnnxNetworks` folder and the moonshine speech-to-text models to `OnnxNetworks/moonshine` folder.
-
+Below is a list of publicly available `ONNX` models, which is a platform independent, single file neural network file format.   
+*When not using the* **Onnx-Downloader**, manually download the network files and place them in:  
+`Plugins/OpenAnimal/Content/OnnxNetworks` folder and the moonshine models to `OnnxNetworks/moonshine` folder.  
 The plugin will automatically detect all networks and log any issues encountered during loading. 
 
 
