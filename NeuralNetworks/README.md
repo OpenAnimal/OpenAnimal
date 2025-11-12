@@ -34,7 +34,7 @@ Google Drive Link. Or from `https://github.com/deepinsight/insightface/tree/mast
 
 
 * Gaze Estimation  
-`[https://github.com/yakhyo/gaze-estimation/mobileone_s0_gaze.onnx`](https://github.com/yakhyo/gaze-estimation/mobileone_s0_gaze.onnx).  `License:` [`MIT`](https://github.com/yakhyo/gaze-estimation/blob/main/LICENSE)
+[`https://github.com/yakhyo/gaze-estimation/mobileone_s0_gaze.onnx`](https://github.com/yakhyo/gaze-estimation/mobileone_s0_gaze.onnx).  `License:` [`MIT`](https://github.com/yakhyo/gaze-estimation/blob/main/LICENSE)
 
 * Head Rotation  
 [`https://github.com/PINTO0309/HeadPoseEstimation-WHENet-yolov4-onnx-openvino/releases/download/v1.0.4/whenet_1x3x224x224_prepost.onnx`](https://github.com/PINTO0309/HeadPoseEstimation-WHENet-yolov4-onnx-openvino/releases/download/v1.0.4/whenet_1x3x224x224_prepost.onnx).  `License:` [`BSD-3-Clause`](https://github.com/PINTO0309/HeadPoseEstimation-WHENet-yolov4-onnx-openvino/blob/main/LICENSE)
