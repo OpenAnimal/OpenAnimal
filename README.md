@@ -60,9 +60,9 @@ The system is built to run fully offline with a design optimized for affordable,
 
 ### Optional
 
-* [VaRest](https://github.com/AboveConstraints/VaRestX) *(optional, but highly recommended)*  
+* [VaRest](https://github.com/AboveConstraints/VaRestX)
 Reliable HTTP/URL communication layer for interacting with hardware and large/visual language models.  
-(Unreal Engine’s built-in HTML communication methods are yet too unstable; VaRest is the battle-tested solution currently used.)
+(VaRest is the battle-tested solution currently used, but it might be replaced by UE HTTP and JSON.)
 
 * [Ollama](https://ollama.com/)  
 For local execution of large and visual language models, including support for cloud-based model computation via the new Ollama cloud-model options.
