@@ -78,7 +78,7 @@ For local execution of large and visual language models, including support for c
 
 ## Release State and Disclaimer
 
-This is an early-stage release and was published under high time pressure. Some features are incomplete, and bugs may exist. Development will continue, and the project is expected to expand over time. 
+This is an early-stage release and was published under high pressure. Some features are incomplete, and bugs may exist. Development will continue, and the project is expected to expand over time. 
 
 
 ## Contact & Support
