@@ -3,23 +3,25 @@
 ## Current Hardware Approach
 
 
-For between Unreal Engine (Android phone) and the robot we use HTTP queries, which is the intended and recommended way to communicate. 
-The preferred hardware is the ESP32, due to its low-cost and built-in Wi-Fi. 
+For connection between Unreal Engine (Dekstop or Android phone) and the Robot Hardware, simple TCP is used. 
+The ESP32 either starts a server or connects to a network (phone's hotspot), on the Unreal side a very simple ActorComponent and node setup is used to connect as client.
+The simple TCP connection allows easy connection to other microcontrollers, f.i. RasperryPi based ones.
 
-Example Arduino-based implementations are or will be provided soon, showing how to transmit:
+### Example Arduino-based implementation:
+
+`OpenAnimal_Mouse.ino` a single-file Arduino script implementation for
 * Motor or servo commands
-* Reading IMU or sensor data
+* Reading sensor data and optionally an inertia measurement unit
 * Transmitting images
-
-
-In the future we will release more advanced example codes. And we might expand to additional platforms like various Arduino boards (in particular M5 ESP32) and potentially Raspberry Pi, or different communication methods. The overall aim is to support inexpensive and widely accessible hardware.
-
++ additional minor details for being mostly independent of libraries and increasing connection robustness
 
 
 #### Example Hardware
-* Freenove 4WD Car Kit for ESP32 CAM 
-* Plus an IMU for Rotation measurements (in particular with magnetometer, like ICM-20948)
-(By default UE Blueprint does have access to the phones IMU but not the magnetometer.)
+
+The preferred hardware is the ESP32, due to its low-cost and built-in Wi-Fi. 
+
+* Freenove 4WD Car Kit (ESP32-CAM with included camera)
+* Plus an optional IMU (ICM-20948) for Rotation measurements (UE Blueprint does have access to the phones IMU, but not the magnetometer without external libraries)
 * The plugin is designed to be largely camera independent and examples will focus on most common models, like the OV2640 camera.
 
 
