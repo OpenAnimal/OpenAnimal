@@ -22,7 +22,7 @@ The LLM/VLM pipeline is implemented as an Actor Component that can be attached t
 Communication with Ollama is performed through the `VaRest` plugin. VaRest provides a robust `HTTP REST` interface that proved more stable than Unreal’s internal `JSON/HTTP` nodes, which were unreliable during testing, but it is planned to convert to the in-house methods at some point. 
 
 ### Known Limitations
-
+* Porting Ollama onto a smartphone might yet not be as straightforward as for desktop.
 * Model behavior varies depending on the specific LLM/VLM. Most testing was performed using `LLaMA` and `LLaVA` models; results with other models may differ. 
 * Even small VLMs can exhibit significant processing latency, this might especially increase on mobile hardware. Real-time usage of VLMs is therefore impractical outside of cloud-assisted scenarios. 
 * While designed for offline usage, the system can connect to external AI providers using the same `REST` interface. However, prompts must be adjusted to match provider-specific API requirements. (Advanced Blueprint prompt generation for ollama may not align directly with external API specifications and the Blueprint prompt generation can require careful, detail-oriented configuration.) 
