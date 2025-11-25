@@ -83,7 +83,7 @@ This is an early-stage release and was published under high time pressure. Some 
 
 ## Contact & Support
 
-Email: OpenAnimal@outlook not .com but .de
+Email: OpenAnimal@outlook not .com but .de  
 For questions that may benefit others, please open an [Issue](https://github.com/OpenAnimal/OpenAnimal/issues) here on GitHub
 
 
