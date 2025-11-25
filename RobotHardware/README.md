@@ -25,7 +25,7 @@ The preferred hardware is the ESP32, due to its low-cost and built-in Wi-Fi.
 * The plugin is designed to be largely camera independent and examples will focus on most common models, like the OV2640 camera.
 
 
-### USB-Serial
+### USB-Serial (currently not continued)
 
 The option to connect Unreal to Arduino via USB currently on hold, as the [SerialCOM](https://github.com/videofeedback/Unreal_Engine_SerialCOM_Plugin) plugin doesn't compile for android yet.
 Also the USB Ports are freed for battery charging. 
