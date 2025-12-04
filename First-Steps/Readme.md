@@ -1,4 +1,7 @@
-# OpenBrain — Getting Started  
+# OpenBrain
+
+## 📘  Getting Started  
+
 
 The Plugin aims to work out-of-the-box to make any actor fully autonomous. To use it, minimal steps are required.
 
