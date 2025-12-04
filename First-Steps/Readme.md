@@ -28,10 +28,7 @@ These booleans control whether the Brain starts within that Actor.
 ### 3. Add the Camera Anchor
 - Copy the **CameraAnchor** component from `OpenBrain_BP`.
 - Attach it to the Parent Actor as a **child of the Static or Skeletal Mesh**.
-- Position it where desired.
-
-**Optional (Skeletal Mesh only):**  
-Set the parent socket to a head bone (like `"head"`), so the camera follows head movement.
+- Position it where desired (Optional for Skeletal Meshes: Set the parent socket to a head bone (like `"head"`), so the camera follows head movement.)
 
 ---
 
