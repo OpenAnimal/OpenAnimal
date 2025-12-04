@@ -1,15 +1,11 @@
-# OpenBrain
-
 ## 📘  Getting Started  
-
 
 The Plugin aims to work out-of-the-box to make any actor fully autonomous. To use it, minimal steps are required.
 
 ## First Steps
 
 ### Prerequisites
-- Download the ONNX networks into: `Plugins/OpenAnimal/Content/OnnxNetworks` *(Create the folder if it does not exist.)*  
-- Alternatively, run the **OnnxDownloader** widget located in the `Utils` folder.
+- Download the ONNX networks into: `Plugins/OpenAnimal/Content/OnnxNetworks` *(Create the folder if it does not exist.)* OR run the **OnnxDownloader** widget located in the `Utils` folder.
 
 ---
 
@@ -28,7 +24,7 @@ These booleans control whether the Brain starts within that Actor.
 ### 3. Add the Camera Anchor
 - Copy the **CameraAnchor** component from `OpenBrain_BP`.
 - Attach it to the Parent Actor as a **child of the Static or Skeletal Mesh**.
-- Position it where desired (Optional for Skeletal Meshes: Set the parent socket to a head bone (like `"head"`), so the camera follows head movement.)
+- Position it where desired (Optional for Skeletal Meshes: Set the parent socket to a bone, so the camera follows the bone movement.)
 
 ---
 
