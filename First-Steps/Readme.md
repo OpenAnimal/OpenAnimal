@@ -5,7 +5,8 @@ The Plugin aims to work out-of-the-box to make any actor fully autonomous. To us
 ## First Steps
 
 ### Prerequisites
-- Download the ONNX networks into: `Plugins/OpenAnimal/Content/OnnxNetworks` *(Create the folder if it does not exist.)* OR run the **OnnxDownloader** widget located in the `Utils` folder.
+- Download the ONNX networks into: `Plugins/OpenAnimal/Content/OnnxNetworks` *(Create the folder if it does not exist.)*
+  OR run the **OnnxDownloader** widget located in the `Utils` folder.
 
 ---
 
