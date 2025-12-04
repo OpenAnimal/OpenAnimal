@@ -1,18 +1,14 @@
-# ·´¯`·. O P E N B R A I N .·´¯`·.
+# OpenBrain — Getting Started  
 
 ## First Steps
 
 ### ✅ Prerequisites
-- Download the ONNX networks into:
-
-`Plugins/OpenAnimal/Content/OnnxNetworks`
-
-*(Create the folder if it does not exist.)*  
+- Download the ONNX networks into: `Plugins/OpenAnimal/Content/OnnxNetworks` *(Create the folder if it does not exist.)*  
 - Alternatively, run the **OnnxDownloader** widget located in the `Utils` folder.
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### 1. Open the OpenBrain Blueprint
 Navigate to the `OpenBrain` folder and open the **OpenBrain** Blueprint.
