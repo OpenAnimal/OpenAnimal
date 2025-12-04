@@ -15,10 +15,6 @@
 
 
 
-## 📘 Official Documentation
-
-
-
 ## Overview
 
 OpenAnimal is an extensible Unreal Engine–based framework for modeling and simulating animal- and human-like behavior. It integrates neural networks, behavior modeling, speech processing, and optional robotics interfaces directly within Unreal Engine, with an emphasis on transparency and autonomous operation.
