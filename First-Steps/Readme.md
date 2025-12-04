@@ -1,8 +1,10 @@
 # OpenBrain — Getting Started  
 
+The Plugin aims to work out-of-the-box to make any actor fully autonomous. To use it, minimal steps are required.
+
 ## First Steps
 
-### ✅ Prerequisites
+### Prerequisites
 - Download the ONNX networks into: `Plugins/OpenAnimal/Content/OnnxNetworks` *(Create the folder if it does not exist.)*  
 - Alternatively, run the **OnnxDownloader** widget located in the `Utils` folder.
 
