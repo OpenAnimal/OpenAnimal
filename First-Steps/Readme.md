@@ -41,11 +41,6 @@ See **Penguin_BP** or **Mouse_BP** to understand how Brains attach to Actors.
 - Serial Module  
 *(Some require external plugins such as **VaRestX**: https://github.com/AboveConstraints/VaRestX)*
 
-### 🎨 Color Coding of Nodes
-- **Brain modules:** Blueish to dark blue  
-- **Speech components:** Light red  
-- **LLM/VLM + WiFi nodes:** Orange / brownish  
-
 ---
 
 ## ⚠ Special Version Note (UE 5.7)
