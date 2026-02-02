@@ -56,9 +56,9 @@ It is similar to robot operating systems like [OpenBot](https://github.com/ob-f/
   For convenience a **Utility Widget** is provided to automatically download the networks to the correct location. 
 
 
-### Optional
+### Optional VLM and LLM
 
-* [VaRest](https://github.com/AboveConstraints/VaRestX)
+* [VaRest](https://github.com/AboveConstraints/VaRestX)  (will be replaced by ue in-house methods)
 Reliable HTTP/URL communication layer for interacting with hardware and large/visual language models.  
 (VaRest is the battle-tested solution currently used, but it might be replaced by UE HTTP and JSON.)
 
@@ -76,7 +76,9 @@ For local execution of large and visual language models, including support for c
 
 ## Release State and Disclaimer
 
-This is an early-stage release some features are incomplete. My resources are limited, but the project is expected to expand over time. 
+🚧 This project is a work in progress! It’s in an early-stage release, so some features are incomplete.
+Unfortunately, I can’t work on it full-time and need to focus on something more “lucrative”.
+I don’t have a donation system yet, but if you’d like to support this project—allowing me to dedicate more time and accelerate development—you can send me a note.
 
 
 ## Contact & Support
