@@ -1,13 +1,15 @@
 
 ## Large Language Models and Visual Language Models
 
-The plugin supports multiple levels of cognition, ranging from low-level socio-dynamic behavior to higher-level reasoning and analysis. For advanced cognitive layers, integration with Large Language Models (LLMs) and Visual Language Models (VLMs) is provided. 
+The plugin supports multiple levels of cognition, ranging from low-level (current focus) to higher-level reasoning and analysis. For advanced cognitive layers, integration with Large Language Models (LLMs) and Visual Language Models (VLMs) is provided. A more general C++ interface for the Blueprint Graph for communication and automatic prompt formatting is available, but not tested yet.
 
 ### Local LLM/VLM Execution via Ollama
 
 To maintain the plugin’s philosophy of supporting standalone, offline, and self-contained operation, Ollama is used as the local provider for LLM and VLM inference. Ollama allows hosting both lightweight and complex models locally with minimal setup effort. 
 
 Download [Ollama](https://ollama.com/)
+
+There are other providers to host LLM/VLMs - these should work in principle, but the prompt formatting might have to be adjusted.
 
 ### Blueprint-Based Prompt Generation
 
@@ -19,7 +21,7 @@ The LLM/VLM pipeline is implemented as an Actor Component that can be attached t
 
 ### Communication Layer
 
-Communication with Ollama is performed through the `VaRest` plugin. VaRest provides a robust `HTTP REST` interface that proved more stable than Unreal’s internal `JSON/HTTP` nodes, which were unreliable during testing, but it is planned to convert to the in-house methods at some point. 
+Communication with Ollama is performed through the `VaRestX` plugin. VaRest provides a robust `HTTP REST` interface that proved more stable than Unreal’s internal `JSON/HTTP` nodes, which were unreliable during testing, but it is planned to convert to the in-house methods at some point. 
 
 ### Known Limitations
 * Porting Ollama onto a smartphone might yet not be as straightforward as for desktop.
