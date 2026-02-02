@@ -58,12 +58,12 @@ Latest release: [v1.0.0](releases/tag/v1.0.0)
 
 ## Dependencies
 
-* **ONNX Neural Networks**  
+* **ONNX Neural Networks** - Now included in free plugin 
   *See:* [Neural Networks README](NeuralNetworks/README.md) for all single-file ONNX networks
-  For convenience a **Utility Widget** is provided to automatically download the networks to the correct location. 
+  The networks are included now, but for convenience a **Utility Widget** is provided to automatically download the networks to the correct location. 
 
 
-### Optional VLM and LLM
+### Optional VLM and LLM (not in focus currently)
 
 * [VaRest](https://github.com/AboveConstraints/VaRestX)  (will be replaced by ue in-house methods)
 Reliable HTTP/URL communication layer for interacting with hardware and large/visual language models.  
