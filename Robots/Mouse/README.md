@@ -4,7 +4,7 @@ Based on Freenove 4WD Car Kit (ESP32-CAM) [Github](https://github.com/Freenove/F
 
 ### Content
 
-* Single Arduino [.ino](Robots/Mouse/OpenAnimal_Mouse.ino) File for communication with Unreal Engine Blueprint
+* Single Arduino [.ino](/Robots/Mouse/OpenAnimal_Mouse.ino) File for communication with Unreal Engine Blueprint
 
 ### Build Images
 
