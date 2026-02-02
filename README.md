@@ -78,7 +78,7 @@ For local execution of large and visual language models, including support for c
 
 * Windows 64-bit (Editor, Runtime)
 * Android (Runtime)
-* (Linux Editor/Runtime?)
+* (Linux Editor/Runtime)?
 
 
 ## Release State and Disclaimer
