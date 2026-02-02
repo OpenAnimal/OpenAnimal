@@ -58,7 +58,7 @@ Latest release: [v1.0.0](releases/tag/v1.0.0)
 
 ## Dependencies
 
-* **ONNX Neural Networks** - Now included in free plugin 
+* **ONNX Neural Networks** - Now included in free plugin  
   *See:* [Neural Networks README](NeuralNetworks/README.md) for all single-file ONNX networks
   The networks are included now, but for convenience a **Utility Widget** is provided to automatically download the networks to the correct location. 
 
