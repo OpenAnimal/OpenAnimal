@@ -25,6 +25,9 @@ The system is built to run fully offline with the brain on a phone and for affor
 
 It is similar to robot operating systems like [OpenBot](https://github.com/ob-f/OpenBot) or [OM1](https://github.com/OpenMind/OM1) but has distinct features and a different philosophy.
 
+
+
+
 ### Key Features
 
 * **Native Unreal Engine ONNX neural-network inference in Blueprints**
@@ -47,6 +50,10 @@ It is similar to robot operating systems like [OpenBot](https://github.com/ob-f/
 * Educational scenarios and demonstrations
 * Robotics and hardware prototyping
 * Research simulations, Social behavior studies and modeling
+
+## Download
+
+Latest release: [v1.0.0](releases/tag/v1.0.0)
 
 
 ## Dependencies
