@@ -9,7 +9,7 @@
 <p align="center">
   <a href="...">🧠 Neural Networks</a> |
   <a href="...">📚 LLM/VLM</a> |
-  <a href="...">🤖 Robot Hardware</a> |
+  <a href="...">🤖 Droids</a> |
   <a href="...">📱 Android</a>
 </p>
 
