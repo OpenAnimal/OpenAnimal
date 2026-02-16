@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">OpenAnimal – OpenBrain - Emotional Robots and Droids 🦖</h1>
-<h2 align="center">OpenAlien - OpenAndroid</h2>
+<h2 align="center">UE5 local multi-modal perception + persistent identity</h2>
 
 <p align="center">
   <a href="...">🧠 Neural Networks</a> |
@@ -53,7 +53,8 @@ It is similar to robot operating systems like [OpenBot](https://github.com/ob-f/
 
 ## Download
 
-Latest release: [v1.0.0](releases/tag/v1.0.0)
+[Download Latest Release](https://github.com/OpenAnimal/OpenAnimal/releases/tag/2026-genesis)
+
 
 
 ## Dependencies
@@ -84,8 +85,8 @@ For local execution of large and visual language models, including support for c
 ## Release State and Disclaimer
 
 🚧 This project is a work in progress! It’s in an early-stage release, so some features are incomplete.
-Unfortunately, I can’t work on it full-time and need to focus on something more “lucrative”.
-I don’t have a donation system yet, but if you’d like to support this project—allowing me to dedicate more time and accelerate development—you can send me a note.
+Unfortunately, I can’t continue to work on it and have to focus on something more “lucrative” to survive.
+(I don’t have a donation system yet, but if you’d like to support this project — allowing me to dedicate time on this — you can send me a note.)
 
 
 ## Contact & Support
